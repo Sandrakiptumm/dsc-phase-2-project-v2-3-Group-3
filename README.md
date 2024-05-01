@@ -11,7 +11,7 @@ Please fill out:
 
  # Demystifying House Sales Analysis with Regression Modeling in a Northwestern County
 
- ![alt text](image-12.png)
+ ![alt text](image-14.png)
 
 ## Project Overview
 Business Understanding
