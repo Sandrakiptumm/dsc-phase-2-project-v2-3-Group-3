@@ -1,7 +1,7 @@
 # Final Project Submission
 
 Please fill out:
-* Student name: HELLEN SAMUEL,Calvine Dasilver,Sandra kiptum ,Jack Otieno,Salahudin 
+* Student name: Hellen Samuel,Calvine Dasilver,Sandra kiptum ,Jack Otieno,Salahudin 
 * Student pace: full time
 * Scheduled project review date/time: 
 * Instructor name: NIKITA
@@ -175,9 +175,9 @@ This shows where our modle works best
 5. evaluating the model
 From this we can see that due to Outliers,Nonlinear Relationships,Heteroscedasticity and overfitting our MSE and RMSE are high, we will build another model to remidy this factors.
 
-**RECOMENDATIONS**
+## RECOMMENDATIONS
 From the 3 modules built we advise potential buyers or sellers to concider model 3 in determining the price of a house. We can also suggest that the factor affecting the price of a house most is square foot living but they should concider increasing the number of bathrooms during renovations for the case of the sellers.
 
-**Next Steps**
+## NEXT STEPS
 1.Find more features that home buyers often value highly to add to the model
 2.Correlate the information of this model with ones for other states
