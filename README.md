@@ -143,3 +143,41 @@ we are plotting our residuals to understand where our model is perfoming best an
 
 our graphs give us the same information as our summary did
 from this we can see that our residuals are not normally distributed we can solve this but using multiple linear distribution
+
+ # Multiple Linear Regression
+
+For Multiple Linear Regression, we are going to use more than one predictor variable to predict price for our case
+
+Our baseline for this model will be the linear Regression that we just did above
+We then clean our data 
+
+![alt text](image-9.png)
+The image above is a heatmap of the cleaned data
+ 
+ # Building the model
+
+1. we build the model,fit it and interprate the results
+
+2. we check for normality
+
+![alt text](image-10.png)
+
+From the diagram above we can see that the errors are not normaly distributed and therefore we will check the other assumptions to evaluate
+
+3. plotting the model
+
+4. independence of errors
+We are going to find out the predicted y of the model and calculate the residual from there on
+
+![alt text](image-11.png)
+This shows where our modle works best
+
+5. evaluating the model
+From this we can see that due to Outliers,Nonlinear Relationships,Heteroscedasticity and overfitting our MSE and RMSE are high, we will build another model to remidy this factors.
+
+**RECOMENDATIONS**
+From the 3 modules built we advise potential buyers or sellers to concider model 3 in determining the price of a house. We can also suggest that the factor affecting the price of a house most is square foot living but they should concider increasing the number of bathrooms during renovations for the case of the sellers.
+
+**Next Steps**
+1.Find more features that home buyers often value highly to add to the model
+2.Correlate the information of this model with ones for other states
