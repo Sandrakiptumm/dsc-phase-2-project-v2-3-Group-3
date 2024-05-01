@@ -89,7 +89,7 @@ We will use descriptive statistics and visualizations to summarize the main char
 
 We will also check the distribution and correlation of the variables and identify any potential problems or opportunities for the analysis.
 
-Univariate Analysis
+ # Univariate Analysis
 
 Univariate analysis involves the examination of single variables.We focus in the summary statistics of target variable-price to help us undersatand the distribution and skewness of house prices.
 
@@ -107,5 +107,39 @@ We perform bivariate analysis to examine the relationship between the target var
 
 The scatter plots show that there is a positive relationship between most of the independent variables and the price of a house. This means that houses with higher values for these variables tend to be more expensive
 
+ # Multivariate Analysis
+
+ In this section, we will perform multivariate analysis to examine the relationship between the target variable - price and multiple features in the data. We will use heatmap to visualize the correlation matrix of the features and see how they are related to each other and to the price.
+
+ ![alt text](image-4.png)
+
+The heatmap shows that Positive correlations are typically represented by shades of red, and negative correlations by shades of blue. We note that bathrooms and sqft_living are highly positively correlated.
 
 
+**Regression Modelling**
+ # Simple Linear Regression
+
+For simple linear regression we will use the one column that has the strongest correlation to the price, this will also be or baseline model for the multiple linear regression.
+
+1. Checking for correlation
+
+from the correlation sqft_living has the highest correlatio with price, we will therefore use sqft_living as the exogenous variable and price as our endogenous variable.
+plot using a scatter plot
+
+
+![alt text](image-5.png)
+
+from this we can see that there is a linearity between the two variables satisfying one of the 4 LINE specifications.
+
+2. building the model
+
+we build the model qand interprate our models results
+
+![alt text](image-6.png)
+
+we are plotting our residuals to understand where our model is perfoming best and where it is performing poorly
+
+![alt text](image-7.png)
+
+our graphs give us the same information as our summary did
+from this we can see that our residuals are not normally distributed we can solve this but using multiple linear distribution
