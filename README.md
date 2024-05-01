@@ -11,6 +11,8 @@ Please fill out:
 
  # Demystifying House Sales Analysis with Regression Modeling in a Northwestern County
 
+ ![alt text](image-12.png)
+
 ## Project Overview
 Business Understanding
 The real estate market is a vital component of regional economic health and stability. This project delves into the dynamics of house sales in a specific northwestern county in the United States, aiming to unravel the key factors influencing property valuation in this area.
@@ -181,3 +183,5 @@ From the 3 modules built we advise potential buyers or sellers to concider model
 ## NEXT STEPS
 1.Find more features that home buyers often value highly to add to the model
 2.Correlate the information of this model with ones for other states
+
+![alt text](image-13.png)
