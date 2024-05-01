@@ -1,4 +1,4 @@
-# ## Final Project Submission
+# Final Project Submission
 
 Please fill out:
 * Student name: HELLEN SAMUEL,Calvine Dasilver,Sandra kiptum ,Jack Otieno,Salahudin 
