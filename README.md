@@ -107,3 +107,5 @@ We perform bivariate analysis to examine the relationship between the target var
 
 The scatter plots show that there is a positive relationship between most of the independent variables and the price of a house. This means that houses with higher values for these variables tend to be more expensive
 
+
+
