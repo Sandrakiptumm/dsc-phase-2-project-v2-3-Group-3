@@ -18,10 +18,10 @@ Business Understanding
 The real estate market is a vital component of regional economic health and stability. This project delves into the dynamics of house sales in a specific northwestern county in the United States, aiming to unravel the key factors influencing property valuation in this area.
 
 ## Challenges of a Fluctuating Real Estate Market:
-Market fluctuations make it difficult for real estate agents to price houses and guide clients on offers.
-Rapid price fluctuations create a challenging environment for homebuyers, making it difficult to secure a good deal and avoid overpaying.
-Trying to pick the perfect moment to sell a house for maximum profit feels like playing the lottery – stressful, unpredictable, and with slim odds of success.
-High land prices and buyers struggling to afford homes make it difficult for builders to build new houses.
+1. Market fluctuations make it difficult for real estate agents to price houses and guide clients on offers.
+2. Rapid price fluctuations create a challenging environment for homebuyers, making it difficult to secure a good deal and avoid overpaying.
+3. Trying to pick the perfect moment to sell a house for maximum profit feels like playing the lottery – stressful, unpredictable, and with slim odds of success.
+4. High land prices and buyers struggling to afford homes make it difficult for builders to build new houses.
 
 ## Problem Statements
 We want to find out what makes houses expensive in a certain county in the northwest US. We'll also look at ways to measure how much these things like number of bedrooms or location affect the price. Finally, we'll see if we can build a tool to predict house prices based on these important features.
