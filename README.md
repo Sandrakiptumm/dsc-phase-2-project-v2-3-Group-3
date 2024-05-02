@@ -50,7 +50,7 @@ The analysis utilizes the King County House Sales dataset, comprising over 21,50
 <li> price: Sale price (prediction target)
 <li> bedrooms, bathrooms, sqft_living, sqft_lot, floors, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode, sqft_living15, sqft_lot15, sell_yr
 
-**Data preparation**
+## Data preparation
 
 we import the necessary functions and clean the data in the following ways
 
