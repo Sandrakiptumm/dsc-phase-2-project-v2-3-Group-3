@@ -17,38 +17,25 @@ Please fill out:
 Business Understanding
 The real estate market is a vital component of regional economic health and stability. This project delves into the dynamics of house sales in a specific northwestern county in the United States, aiming to unravel the key factors influencing property valuation in this area.
 
+## Challenges of a Fluctuating Real Estate Market:
+Market fluctuations make it difficult for real estate agents to price houses and guide clients on offers.
+Rapid price fluctuations create a challenging environment for homebuyers, making it difficult to secure a good deal and avoid overpaying.
+Trying to pick the perfect moment to sell a house for maximum profit feels like playing the lottery – stressful, unpredictable, and with slim odds of success.
+High land prices and buyers struggling to afford homes make it difficult for builders to build new houses.
 
 ## Problem Statements
+We want to find out what makes houses expensive in a certain county in the northwest US. We'll also look at ways to measure how much these things like number of bedrooms or location affect the price. Finally, we'll see if we can build a tool to predict house prices based on these important features.
 
-<li> What are the most significant factors influencing house prices in this northwestern county?
-
-<li> How can we quantify the relationship between these factors and property value?
-
-<li> Can we develop a reliable model to predict house prices based on relevant characteristics?
-
-
-## Challenges
-
-1. Real estate data complexity, encompassing diverse property features and local market trends.
-2. Accurately identifying and quantifying the impact of each factor on house prices.
-3. Consideration of external factors like economic conditions and interest rates.
+## Conclusion
+Our study looked at how the ups and downs of the housing market in a northwestern county are making things tough for everyone involved. To help out, we're building a tool to predict house prices. This will give real estate agents valuable information so they can give their clients the best advice in this unpredictable market.
 
 ## Proposed Solutions
-
 Utilizing multiple linear regression, a powerful machine learning technique, to analyze a large dataset of house sales and identify statistical relationships between property features and sale prices.
 
 ## Objectives
-
-1. Develop a robust multiple linear regression model for accurate house price prediction.
-2. Identify significant factors influencing property value in the specific market.
-3. Provide insights into regional housing market dynamics.
-
-## Research Questions
-
-<li> How do bedrooms, bathrooms, grade, and square footage correlate with sale price in King County?
-<li> What increase in home value can homeowners expect after specific renovation projects?
-<li> Which renovation projects have the greatest impact on a home's market value?
-<li> Are there specific combinations of renovation projects that provide an interdependent effect on home value?
+1. Develop a robust multiple linear regression model that accurately predicts house prices in the chosen northwestern county.
+2. Identify the most significant factors influencing property value within this specific market.
+3. Provide valuable insights into the housing market dynamics of the region, benefiting potential buyers, real estate agents, and other stakeholders.
 
 ## Data Understanding
 
@@ -62,13 +49,6 @@ The analysis utilizes the King County House Sales dataset, comprising over 21,50
 <li> date: Date of house sale
 <li> price: Sale price (prediction target)
 <li> bedrooms, bathrooms, sqft_living, sqft_lot, floors, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode, sqft_living15, sqft_lot15, sell_yr
-
-**Constraints and Considerations**
-
-<li> Data may contain anomalies or inconsistencies necessitating careful examination.
-<li> Time frame (May 2014 - May 2015) may not fully reflect current market dynamics.
-<li> Scope of data may not capture external factors such as interest rates or economic climate influencing property values.
-
 
 **Data preparation**
 we import the necessary functions and clean the data in the following ways
@@ -177,6 +157,12 @@ This shows where our modle works best
 5. evaluating the model
 From this we can see that due to Outliers,Nonlinear Relationships,Heteroscedasticity and overfitting our MSE and RMSE are high, we will build another model to remidy this factors.
 
+**Constraints and Considerations**
+
+<li> Data may contain anomalies or inconsistencies necessitating careful examination.
+<li> Time frame (May 2014 - May 2015) may not fully reflect current market dynamics.
+<li> Scope of data may not capture external factors such as interest rates or economic climate influencing property values.
+ 
 ## RECOMMENDATIONS
 From the 3 modules built we advise potential buyers or sellers to concider model 3 in determining the price of a house. We can also suggest that the factor affecting the price of a house most is square foot living but they should concider increasing the number of bathrooms during renovations for the case of the sellers.
 
