@@ -103,9 +103,9 @@ Univariate analysis involves the examination of single variables.We focus in the
 
   # Bivariate Analysis
 
-We perform bivariate analysis to examine the relationship between the target variable - price and the other numeric and continuous features in the data using the scatter plots to show the direction, strength, and shape of the relationship between two numeric variables.
+We perform bivariate analysis to examine the relationship between the target variable - price and the other numeric and continuous features in the data using the scatter plots to show the direction, strength, and shape of the relationship between two numeric variable
 
-![alt text](image-3.png)
+![alt text](image-2.png)
 
 The scatter plots show that there is a positive relationship between most of the independent variables and the price of a house. This means that houses with higher values for these variables tend to be more expensive
 
@@ -153,7 +153,7 @@ For Multiple Linear Regression, we are going to use more than one predictor vari
 Our baseline for this model will be the linear Regression that we just did above
 We then clean our data 
 
-![alt text](image-9.png)
+![alt text](image-8.png)
 The image above is a heatmap of the cleaned data
  
  # Building the model
